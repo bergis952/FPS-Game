@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Buildplace : MonoBehaviour
 {
+    public GameHandler gameHandlerObj;
     //The tower that should be built
     public GameObject towerPrefab;
 
     void OnMouseUpAsButton()
     {
-        //build a tower above Buildplace
-        GameObject g = (GameObject)Instantiate(towerPrefab);
-        g.transform.position = transform.position + Vector3.up;
+        if (gameHandlerObj.playerMoney > 1)
+        {
+            //build a tower above Buildplace
+            GameObject g = (GameObject)Instantiate(towerPrefab);
+            g.transform.position = transform.position + Vector3.up;
+            gameHandlerObj.AddScore(-1);
+        }
     }
 }

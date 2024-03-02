@@ -359,6 +359,7 @@
 "Assets/Scripts/Buildplace.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/GameHandler.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/Spawn.cs"
 "Assets/Scripts/Tower.cs"
