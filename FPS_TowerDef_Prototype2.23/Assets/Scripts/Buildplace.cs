@@ -7,10 +7,10 @@ public class Buildplace : MonoBehaviour
     public GameHandler gameHandlerObj;
     //The tower that should be built
     public GameObject towerPrefab;
-
-    void OnMouseUpAsButton()
+    
+    void OnMouseOver()
     {
-        if (gameHandlerObj.playerMoney > 1)
+        if (gameHandlerObj.playerMoney >= 1 && Input.GetMouseButtonDown(1))
         {
             //build a tower above Buildplace
             GameObject g = (GameObject)Instantiate(towerPrefab);
