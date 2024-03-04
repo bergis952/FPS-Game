@@ -37,6 +37,6 @@ public class GameHandler : MonoBehaviour
       void UpdateMoney()
       {
             TextMesh MoneyB = Money.GetComponent<TextMesh>();
-            MoneyB.text = "$" + playerMoney;
+            MoneyB.text = "" + playerMoney;
       }
 }
