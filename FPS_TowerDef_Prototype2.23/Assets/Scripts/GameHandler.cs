@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameHandler : MonoBehaviour
 {
       public GameObject Money;
+      public GameObject playerCamera;
       public int Income = 10;
       public int ICMAX;
       public int playerMoney = 0;
@@ -13,6 +14,7 @@ public class GameHandler : MonoBehaviour
       void Start()
       {
             UpdateMoney();
+            Cursor.visible = false;
       }
 
       void Update()
