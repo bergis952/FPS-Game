@@ -9,6 +9,7 @@ public class GameHandler : MonoBehaviour
       public int ICMAX;
       public int playerMoney = 0;
       private int IncomeCounter = 0;
+      public int KillCount = 0;
 
       void Start()
       {

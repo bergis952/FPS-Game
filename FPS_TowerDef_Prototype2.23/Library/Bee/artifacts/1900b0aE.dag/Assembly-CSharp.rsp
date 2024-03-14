@@ -364,6 +364,7 @@
 "Assets/Scripts/PlayerBullet.cs"
 "Assets/Scripts/PlayerHandler.cs"
 "Assets/Scripts/Spawn.cs"
+"Assets/Scripts/Timer.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/Weapon.cs"
 "Assets/Scripts/WeaponManager.cs"
