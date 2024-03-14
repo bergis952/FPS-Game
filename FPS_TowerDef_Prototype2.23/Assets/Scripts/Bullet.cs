@@ -18,10 +18,11 @@ public class Bullet : MonoBehaviour
             Vector3 dir = target.position - transform.position;
             GetComponent<Rigidbody>().velocity = dir.normalized * speed;
         }
+       
         else
         {
             //else kill self
-            Destroy(gameObject);
+            Destroy(gameObject);            
         }
 
     }
