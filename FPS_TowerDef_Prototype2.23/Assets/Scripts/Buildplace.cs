@@ -10,12 +10,12 @@ public class Buildplace : MonoBehaviour
     
     void OnMouseOver()
     {
-        if (gameHandlerObj.playerMoney >= 1 && Input.GetMouseButtonDown(1))
+        if (gameHandlerObj.playerMoney >= 5 && Input.GetMouseButtonDown(1))
         {
             //build a tower above Buildplace
             GameObject g = (GameObject)Instantiate(towerPrefab);
             g.transform.position = transform.position + Vector3.up;
-            gameHandlerObj.AddScore(-1);
+            gameHandlerObj.AddScore(-5);
         }
     }
 }

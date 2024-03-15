@@ -84,7 +84,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5081521193003046563}
-  m_Text: 100
+  m_Text: '>:('
   m_OffsetZ: 0
   m_CharacterSize: 0.09
   m_LineSpacing: 1
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb1f1bd4d93a0546817de474169ab7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 7
   damage: 1
 --- !u!1 &5435085943288421771
 GameObject:
@@ -288,7 +288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b2c25f95b0db834a88fed77865d3507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 5831937674492460836, guid: 189538d3fc6ac3c48ac09efd876cdafc, type: 3}
 --- !u!222 &8557427382190675147
 CanvasRenderer:
   m_ObjectHideFlags: 0

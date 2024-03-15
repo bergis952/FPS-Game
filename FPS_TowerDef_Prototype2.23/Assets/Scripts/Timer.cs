@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -18,9 +19,8 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            Debug.Log("Time has run out!");
             TextMesh CounterB = Counter.GetComponent<TextMesh>();
-            CounterB.text = "0 seconds left";
+            CounterB.text = "You win! Nothing changes now but congrats.";
         }
     }
 }
